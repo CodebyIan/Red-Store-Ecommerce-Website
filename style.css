@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+header .container {
+  width: 1300px;
+  margin: auto;
+  padding: 0 25px;
+}
+
+header .container .nav_bar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+header .container .nav_bar .logo img {
+  width: 125px;
+}
+
+header .container .nav_bar nav {
+  flex: 1;
+  text-align: right;
+}
+
+header .container .nav_bar nav ul {
+  list-style-type: none;
+}
+
+header .container .nav_bar nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header .container .nav_bar nav ul li a {
+  text-decoration: none;
+  color: #555;
+}
+
+header .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+header .container .row .left_col,
+.right_col {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+header .container .row .right_col img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+header .container .row .left_col h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+
+header .container .row .left_col p {
+  color: #555;
+}
+
+header .container .row .left_col .btn {
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  text-decoration: none;
+  margin: 25px 0;
+  border-radius: 50px;
+}
